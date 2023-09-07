@@ -1,0 +1,42 @@
+Vagrant.configure("2") do |config|
+    config.hostmanager.enabled = true 
+    config.hostmanager.manage_host = true
+    
+  ### Nginx VM ###
+    config.vm.define "web01" do |web01|
+      web01.vm.box = "ubuntu/bionic64"
+      web01.vm.hostname = "web01"
+      web01.vm.network "private_network", ip: "192.168.56.11"
+    end
+    
+  ### tomcat vm ###
+     config.vm.define "app01" do |app01|
+      app01.vm.box = "geerlingguy/centos7"
+      app01.vm.hostname = "app01"
+      app01.vm.network "private_network", ip: "192.168.56.12"
+      app01.vm.provider "virtualbox" do |vb|
+       vb.memory = "1024"
+       end
+     end
+     
+  ### RabbitMQ vm  ####
+    config.vm.define "rbmq" do |rbmq|
+      rbmq.vm.box = "geerlingguy/centos7"
+      rbmq.vm.hostname = "rbmq"
+      rbmq.vm.network "private_network", ip: "192.168.56.16"
+    end
+    
+  ### Memcache vm  #### 
+    config.vm.define "memc" do |memc|
+      memc.vm.box = "geerlingguy/centos7"
+      memc.vm.hostname = "memc"
+      memc.vm.network "private_network", ip: "192.168.56.14"
+    end
+    
+  ### DB vm  ####
+    config.vm.define "db" do |db|
+      db.vm.box = "geerlingguy/centos7"
+      db.vm.hostname = "db"
+      db.vm.network "private_network", ip: "192.168.56.15"
+    end
+  end
