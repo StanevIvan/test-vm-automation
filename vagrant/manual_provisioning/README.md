@@ -50,6 +50,7 @@ The setup should follow specific order:
 
 Login to the db vm:
 - $ vagrant ssh db
+- $ sudo -i
 
 Check Hosts entry:
 - $ cat /etc/hosts
