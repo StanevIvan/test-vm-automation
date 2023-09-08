@@ -1,5 +1,24 @@
+Reppo for the sorce code of the web application:
+https://github.com/devopshydclub/vprofile-project
+
+# Vprofile Project
+This is a sample project for practicing DevOps tools(like Vagrant, Bash scripting, Linux commands etc.)
+
+# Overview
+This project provides scripts and configurations to automate the setup of a virtual machine (VM) for DevOps practices. With Vagrant and GitBash, you can easily provision a VM with essential tools and configurations for a DevOps environment.
+
+# Table of Contents
+- [Prerequisites](#prerequisites)
+- [Technologies](#technologies)
+- [Database](#database)
+
 # Prerequisites
-#
+- VM Oracle VirtualBox
+- Vagrant
+- GitBash
+- RabbitMQ
+- Nginx
+- Tomcat
 - JDK 11
 - Maven 3 or later
 - MySQL 5.6 or later
@@ -11,15 +30,5 @@
 - Maven
 - JSP
 - MySQL
-# Database
-Here,we used Mysql DB 
-MSQL DB Installation Steps for Linux ubuntu 14.04:
-- $ sudo apt-get update
-- $ sudo apt-get install mysql-server
 
-Then look for the file :
-- /src/main/resources/accountsdb
-- accountsdb.sql file is a mysql dump file.we have to import this dump to mysql db server
-- > mysql -u <user_name> -p accounts < accountsdb.sql
-
-
+Setting up the VMs and installing the required software is made mannualy and after that it is provisioned using Vagrant and Bash scripting. More details can be found in the README.md file of the vagrant folder.
