@@ -1,6 +1,3 @@
-Reppo for the sorce code of the web application:
-https://github.com/devopshydclub/vprofile-project
-
 # Vprofile Project
 This is a sample project for practicing DevOps tools(like Vagrant, Bash scripting, Linux commands etc.)
 
@@ -32,3 +29,7 @@ This project provides scripts and configurations to automate the setup of a virt
 - MySQL
 
 Setting up the VMs and installing the required software is made mannualy and after that it is provisioned using Vagrant and Bash scripting. More details can be found in the README.md file of the vagrant folder.
+
+
+Reppo for the source code of the web application:
+https://github.com/devopshydclub/vprofile-project
