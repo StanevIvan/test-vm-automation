@@ -28,7 +28,7 @@ Vagrant.configure("2") do |config|
 ### RabbitMQ vm  ####
   config.vm.define "rbmq" do |rbmq|
     rbmq.vm.box = "eurolinux-vagrant/centos-stream-9"
-  rmq01.vm.hostname = "rbmq"
+    rbmq.vm.hostname = "rbmq"
     rbmq.vm.network "private_network", ip: "192.168.56.16"
     rbmq.vm.provider "virtualbox" do |vb|
      vb.memory = "600"
