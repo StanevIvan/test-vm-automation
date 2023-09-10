@@ -1,7 +1,7 @@
-### Automated Provisioning
+## Automated Provisioning
 The setup follow the setup of the manual provisioning. The only difference is that the setup is automated using a shell script.
 
-#### Configuration
+### Configuration
 
 Provisioning services:
 1. Nginx: Web Service
@@ -10,7 +10,7 @@ Provisioning services:
 4. Memcache: Caching Server
 5. MySQL: Database Server
 
-### Getting Started
+## Getting Started
 To get started, open Git Bash and go to the directory of the automated_provisioning branch.
 
 NOTE: If you already have set up the manual provisioning, you have to destroy the VMs first before you can proceed with the automated provisioning. You can destroy the VMs with the following command:
