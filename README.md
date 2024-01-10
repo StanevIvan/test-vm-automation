@@ -29,7 +29,7 @@ This project provides scripts and configurations to automate the setup of a virt
 - MySQL
 
 Setting up the VMs and installing the required software is made mannualy and after that it is provisioned using Vagrant and Bash scripting. More details can be found here:
-- Manual VM setup - [README.md](https://github.com/StanevIvan/test-vm-automation/blob/main/vagrant/manual_provisioning/README.md).
+- Manual VM setup - [README.md](https://github.com/StanevIvan/test-vm-automation/blob/main/vagrant/manual_provisioning/README.md)
 - Automated VM setup - [README.md](https://github.com/StanevIvan/test-vm-automation/blob/main/vagrant/automated_provisioning/README.md)
 
 
