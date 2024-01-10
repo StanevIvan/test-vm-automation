@@ -33,5 +33,4 @@ Setting up the VMs and installing the required software is made mannualy and aft
 - Automated VM setup - [README.md](https://github.com/StanevIvan/test-vm-automation/blob/main/vagrant/automated_provisioning/README.md)
 
 
-Reppo for the source code of the web application:
-https://github.com/devopshydclub/vprofile-project
+Reppo for the source code of the web application[here](https://github.com/devopshydclub/vprofile-project)
